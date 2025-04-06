@@ -37,15 +37,18 @@ A classe representa um paciente e realiza validações de dados no momento da cr
 
 ---
 
-##  Testes Implementados
+## ✅ Testes Implementados
 
-Os testes cobrem os seguintes cenários:
-
-| Teste                          | Resultado Esperado              |
-|-------------------------------|----------------------------------|
-| Criar paciente válido          | ✅ Objeto criado com sucesso     |
-| CPF vazio                      | ❌ Gera `ValueError`             |
-| Email em formato inválido      | ❌ Gera `ValueError`             |
+| Teste                           | Resultado Esperado                              |
+|--------------------------------|--------------------------------------------------|
+| Criar paciente válido           | ✅ Objeto criado com sucesso                     |
+| CPF vazio                       | ❌ Gera `ValueError`                             |
+| Email em formato inválido      | ❌ Gera `ValueError`                             |
+| Nome vazio                      | ❌ Gera `ValueError`                             |
+| Gênero válido                   | ✅ Gênero presente na lista permitida            |
+| CPF com letras                  | ❌ Gera `ValueError`(CPF deve conter apenas números e ter 11 dígitos.)                             |
+|CPF com menos ou mais de 11 digitos  | ❌ Gera `ValueError` (CPF deve conter apenas números e ter 11 dígitos.)  |
+| Data de nascimento inválida    | ❌ Gera `ValueError` (formato de data inválido)  |
 
 ---
 
