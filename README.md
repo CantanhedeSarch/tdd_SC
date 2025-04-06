@@ -75,4 +75,4 @@ Editor de código (VS Code)
 - ✔️ Separação de responsabilidades (testes x lógica)
   
 ##
-##   👩‍💻 By: Sarah Cantanhede/SarchDev
+##   👩‍💻 By: Sarah Cantanhede/SarchDev e Gustavo Santos
